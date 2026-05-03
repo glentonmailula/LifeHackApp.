@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/ic_dialog_email"
+    android:backgroundTint="#2B4854"
+    android:backgroundTintMode="src_atop"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#F3F4F4FF"
+        android:fontFamily="@font/aguafina_script"
+        android:text="thobelang"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#1A3350"
+        android:backgroundTint="#0D2B3C"
+        android:fontFamily="@font/aclonica"
+        android:text="Test your knowledge of life hacks!"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFF7F7"
+        android:backgroundTint="#E9E9E9"
+        android:fontFamily="cursive"
+        android:text="Start"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+
+
+
+
+
