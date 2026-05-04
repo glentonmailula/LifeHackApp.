@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LifeHackApp</string>
+    <string name="hack_true">Hack (True)</string>
+    <string name="myth_false">Myth (False)</string>
+    <string name="next">Next</string>
+</resources>
